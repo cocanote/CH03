@@ -21,5 +21,26 @@
     <ClCompile Include="datatype1.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="datatype2.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="datatype3.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="datatype4.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="putchar1.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="printf1.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="scanf2.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="scanf3.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -15,10 +15,13 @@ int main()
 	int age = 20; //초기화
 	double height = 175.1;
 	const float PI = 3.14159; //변수를 상수화(반드시 초기화)
+
+	printf("%s \n", EQ);
+	printf("%s \n", MSG);
 	ch = 'A'; //대입
 
-	printf("%c, %d, %lf, %f \n", ch, age, height, PI);
-
+	printf("변수의 값 : %c, %d, %lf, %f \n", ch, age, height, PI);
+	printf("변수의 주소 : %p, %p, %p, %p \n", &ch, &age, &height, &PI);
 	age = 27; 
 	//PI = 1.5;
 
@@ -27,5 +30,7 @@ int main()
 	printf("%d, %d, %d \n", sizeof(char), sizeof(int), sizeof(double));
 	printf("%d, %d, %d \n", sizeof(ch), sizeof(age), sizeof(height));
 
+	printf("%d \n", SUM(100, 200));
+	printf("%s \n", EQ);
 	return 0;
 }
